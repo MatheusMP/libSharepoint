@@ -1,0 +1,84 @@
+.custom-main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.custom-main .custom-cont-input{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+.custom-main .custom-cont-input .custom-input,
+.custom-main .custom-cont-input .custom-select,
+.custom-main .custom-cont-input .custom-textarea{
+  width: 100%;
+  border: 1px solid rgb(100, 100, 100);
+  border-radius: 6px;
+  font-size: 14px;
+  color: #000;
+  height: auto;
+  padding: 8px 16px;
+  outline: none;
+}
+.custom-main .custom-cont-input .custom-cont-radio,
+.custom-main .custom-cont-input .custom-cont-checkbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.custom-main .custom-cont-input .custom-cont-radio label,
+.custom-main .custom-cont-input .custom-cont-checkbox label{
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  gap: 5px;
+  margin: 0;
+}
+.custom-main .custom-cont-btns{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: end;
+}
+.custom-main .custom-cont-btns button{
+  border-radius: 8px;
+}
+.custom-main .custom-cont-btns .custom-btn-clear{
+  background-color: lightyellow;
+}
+.custom-main .custom-cont-btns .custom-btn-send{
+  background-color: lightgreen;
+}
+
+/* TABELA */
+.custom-main .custom-tabela {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.custom-main .custom-tabela th,
+.custom-main .custom-tabela td {
+  text-align: left;
+  padding: 16px;
+}
+
+.custom-main .custom-tabela tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.custom-main .custom-tabela button{
+  border-radius: 8px;
+}
+
+.custom-main .custom-tabela .custom-btn-delete{
+  background-color: lightcoral;
+  color: white;
+}
