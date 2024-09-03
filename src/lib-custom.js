@@ -63,10 +63,14 @@ class FormularioColunaCustom {
             html += this.returnInputHtml(item)
           })
           html += `<div class="custom-cont-btns">
+            <button class="custom-btn-back" type="button">Voltar</button>
             <button class="custom-btn-clear" type="button">Limpar</button>
             <button class="custom-btn-send" type="button">Enviar</button>
           </div></section>`
           document.querySelector(this.elemento).innerHTML = html
+          document.querySelector(`${this.elemento} .custom-btn-back`).onclick = () => {
+            history.back()
+          }
           document.querySelector(`${this.elemento} .custom-btn-clear`).onclick = () => {
             this.limpaCampos()
           }
@@ -466,3 +470,8 @@ class TabelaColunaCustom {
     })
   }
 }
+
+/*
+  MUDANÇAS
+  
+*/
