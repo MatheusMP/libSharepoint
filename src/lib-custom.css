@@ -48,6 +48,9 @@
 .custom-main .custom-cont-btns button{
   border-radius: 8px;
 }
+.custom-main .custom-cont-btns .custom-btn-back{
+  background-color: lightgray;
+}
 .custom-main .custom-cont-btns .custom-btn-clear{
   background-color: lightyellow;
 }
